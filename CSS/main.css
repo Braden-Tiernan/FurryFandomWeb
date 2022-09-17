@@ -42,13 +42,18 @@ p{
 	margin: 10px auto 0 auto;
 	position: fixed;
 	height: 46px;
-	width: 93%;
+	width: calc(100% - 40px);
+	left:20px;
+	top:20px;
 	border-radius: 50px;
-	background: linear-gradient(to bottom,#fff,#f5f4f5);
-    opacity: 0.9;
+	background-color:rgba(255,255,255,0.8);
 	box-shadow: 3px 3px 7px rgba(0,0,0,0.6);
 	padding: 0 10px 0 30px;
-    z-index: 1000;
+        z-index: 1000;
+	backdrop-filter:blur(6px);
+	-webkit-backdrop-filter:blur(6px);
+	-moz-backdrop-filter:blur(6px);
+	-o-backdrop-filter:blur(6px);
 }
 
 .page-container{
